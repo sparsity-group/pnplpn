@@ -1,5 +1,3 @@
-# Learned proximal networks for inverse problems
-
 This repository contains code for the experiments in
 [Plug-and-Play Methods Provably Converge Even with Improperly Trained Denoisers: Convergence by Architectural Design](https://arxiv.org/abs/2609.33087)
 by Henry Pritchard and Rahul Parhi.
