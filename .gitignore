@@ -1,0 +1,17 @@
+# IDE settings
+.idea/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# CT experiment outputs
+CT/results/
+CT/checkpoints/
+CT/trained_lpn/model.pt
+CT/trained_lpn/checkpoints/
+CT/trained_lpn/tensorboard/
+MRI/results/
+events.out.tfevents.*
