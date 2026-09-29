@@ -24,9 +24,9 @@ from fft_operator import (
 from lpn_320 import LPN
 
 
-DATA_ROOT = Path("../../shared/datasets/fastmri/multicoil_knee")
+DATA_ROOT = Path("PATH TO DATASET")
 GPU_INDEX = 0  # choose GPU 0 or GPU 1
-MODEL_LOCATION = Path("results/20260904_144820_PDT")
+MODEL_LOCATION = Path("trained_lpn")
 IMAGE_INDEX = 10
 NUM_IMAGES = 1
 IMAGE_INDICES: list[int] = [10, 11, 12, 16]  # e.g. [2, 10, 47]; overrides the settings above

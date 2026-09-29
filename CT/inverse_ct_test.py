@@ -15,16 +15,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 
-from ct_dataset import DEFAULT_DATA_ROOT, load_dataset
+from ct_dataset import load_dataset
 from inverse_mayoct_tomo import LeapCTOperator
 from lpn_512 import LPN
 from metrics import compute_image_metrics
 
 
 # Configuration
-DATA_ROOT = DEFAULT_DATA_ROOT
+DATA_ROOT = Path("PATH TO DATASET")
 GPU_INDEX = 0  # choose GPU 0 or GPU 1
-MODEL_LOCATION = Path("results/20260829_141445_PDT")
+MODEL_LOCATION = Path("trained_lpn")
 
 IMG_SIZE = 512
 SPACE_RANGE = 128.0

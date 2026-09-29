@@ -1,0 +1,14 @@
+DATA_ROOT = '../../shared/datasets/fastmri/multicoil_knee'
+IMG_SIZE = 320
+SIGMA = 0.1
+TRAIN_BATCH_SIZE = 64
+NUM_STEPS = 40000
+LR = 0.0001
+LR_MIN = 1e-06
+IN_DIM = 1
+ACTIVATION = 'huberizedrelu'
+ALPHA = 0.8
+HIDDEN = 256
+HUBER_DELTA = 0.1
+BETA = 5.0
+GPU_INDEX = 1
